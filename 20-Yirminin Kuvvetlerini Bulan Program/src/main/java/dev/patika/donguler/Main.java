@@ -14,9 +14,9 @@ public class Main {
         System.out.print("Lütfen bir sayı girin: ");
         int input = scanner.nextInt();
 
-        for (int floor = 0; floor <= input; floor++)
+        for (int floor = 1; floor <= input; floor++)
             // Ekok(4, 5) = 20
-            if (floor % 20 == 0)
+            if (floor % 20 == 0 || floor == 1)
                 inputs.add(floor);
 
         System.out.println("4'e ve 5'e bölünebilen sayılar: \n" + inputs);
