@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde 
 oluşturduğum on üçüncü projedir.
-Sayıları Büyükten Küçüğe Sıralayan Programı
+Sayıları Büyükten Küçüğe Sıralayan Program
 
 ---
 ## Sayıları Büyükten Küçüğe Sıralayan Program
