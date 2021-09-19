@@ -3,12 +3,9 @@
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde 
 oluşturduğum projelerdendir.
 
----
 
 # Mayın Tarlası Oyunu
 
----
-## Sınıflar konusu için projeler
 ### Bu Konu:
 
 Java dilinde Mayın Tarlası oyunu yapmanızı bekliyoruz.
