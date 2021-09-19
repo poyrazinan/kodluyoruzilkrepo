@@ -27,7 +27,7 @@ public class MineSweeper {
         generateBoard();
         generateBombs(mines);
         generateInfos();
-        debug();
+      //  debug();
         printGame();
         runGame(scanner);
 
@@ -166,7 +166,7 @@ public class MineSweeper {
         }
 
     }
-
+/*
     private void debug() {
         for (int i = 0; i < board.length; i++) {
             for (int k = 0; k < board[i].length; k++) {
@@ -177,4 +177,5 @@ public class MineSweeper {
             System.out.println();
         }
     }
+    */
 }
