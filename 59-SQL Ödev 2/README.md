@@ -1,4 +1,4 @@
-# Kodluyoruz Back-End Java Eğitimi 058
+# Kodluyoruz Back-End Java Eğitimi 059
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde 
 oluşturduğum projelerdendir.
