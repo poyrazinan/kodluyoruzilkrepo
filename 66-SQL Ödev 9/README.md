@@ -1,10 +1,10 @@
-# Kodluyoruz Back-End Java Eğitimi 065
+# Kodluyoruz Back-End Java Eğitimi 066
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde 
 oluşturduğum projelerdendir.
 
 ---
-## SQL Patikası Ödev 8
+## SQL Patikası Ödev 9
 
 ## Online Film Sistemi
 
