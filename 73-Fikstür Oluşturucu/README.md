@@ -4,7 +4,7 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde
 oluşturduğum projelerdendir.
 
 ---
-## Java102 Patikası Ödevi Kitap Sıralayıcı
+## Java102 Patikası Ödevi
 
 Java ile girilen takımlar için rastgele maç fikstürü oluşturan bir sınıf yazılmalı.
 
