@@ -21,6 +21,7 @@ class Main {
         if (teams.size()%2 != 0)
             teams.add("Bay");
 
+        Collections.shuffle(teams);
         List<Game> games = new ArrayList<>();
 
         for (int i = 1; i <= teams.size(); i++) {
