@@ -1,4 +1,4 @@
-# Kodluyoruz Hi-Code Frontend Java Eğitimi 001
+# Kodluyoruz Hi-Code Frontend Java Eğitimi 002
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Hi-Code Frontend Eğitiminde 
 oluşturduğum projelerdendir.
@@ -6,16 +6,13 @@ oluşturduğum projelerdendir.
 ---
 ## Jr-Frontend 102
 
-Java ile girilen takımlar için rastgele maç fikstürü oluşturan bir sınıf yazılmalı.
+## İlk Web Sayfamızı Oluşturmak 2
+Bir önceki ödevimizde ilk web sayfamızı yapıp bunu kişisel sayfamız olarak tasarlamıştık. Yeni öğrendiğimiz bilgiler dahilinde bu sayfayı geliştirmeye devam edelim. Hazır mısınız? E hadi buyurun o zaman.
 
-## İlk Web Sayfamızı Oluşturmak
-Eveet harika konular öğrendikten sonra sıra geldi ödevimize. Bu ödevimizde ilk web sayfamızı tasarlayacağız. Çok heyecanlı değil mi? Sizlerden istediğimiz çok basit bir şekilde öğrendiklerinizle bir web sayfası tasarlamanız.
-
-- Siteyi açtığımızda adınız ve soyadınızı başlık şeklinde göstermeniz gerekiyor.
-- Ad-Soyadın altında alt başlık olarak Hakkımda yazmalıdır.
-- Altına paragraf içerisinde neler yaptığınızı ve nelerden hoşlandığınızı yazabilirsiniz.
-- Web sitenizi kaydederken dosya adı olarak 'index.html' seçmeniz gerekmektedir.
-- Yazdığınız kodları açıklayan yorum satırları eklemeyi unutmayın.
+- Sayfanıza bir adet resim ekleyin ve bu resime bir açıklama yazın.
+- Sevdiğiniz film, dizi ve kitapları bunlar başlıklar olacak şekilde sıralayınız. (Film, dizi, kitap sıralı liste, içerikleri bullet liste olacak şekilde)
+- Bunları sıralarken film ve dizilerin en az bir tanesine IMDb linki, kitapların bir tanesine de** Goodreads linkini** yazınız.
+- Kurduğunuz yapılarda block, inline gibi elementler kullanmaya çalışın.
 
 ---
 ## License
