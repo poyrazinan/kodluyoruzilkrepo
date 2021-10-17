@@ -1,7 +1,7 @@
 # Kodluyoruz Back-End Java Eğitimi 078
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Back-End Java Eğitiminde 
-oluşturduğum projelerdendir.
+oluşturduğum projelerdendir. (PC min gücü yapmaya yetmediği için sonra tamamlanacaktır.)
 
 # Patika Klonu
 
