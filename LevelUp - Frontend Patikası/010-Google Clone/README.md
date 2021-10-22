@@ -9,8 +9,6 @@ oluşturduğum projelerdendir.
 
 Google Clone'u yapıldı.
 
-Live preview: https://poyrazinan.com.tr/google
-
 ---
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
