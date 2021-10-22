@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <ul class="nav justify-content-end mt-2">
+        <li class="nav-item mt-1" style="width: 80px; padding-left: 25px;">
+          <a class="nav-link nav-color" href="https://www.google.com/intl/tr/gmail/about/#">Gmail</a>
+        </li>
+        <li class="nav-item mt-1" style="width: 80px; margin-right: 10px;">
+          <a class="nav-link nav-color" href="https://www.google.com.tr/imghp?hl=tr&ogbl">Görseller</a>
+        </li>
+        <li class="nav-item mt-1">
+          <img class="nav-link nav-color" src="https://static.thenounproject.com/png/143229-200.png" alt="nine-dots" width="38px" height="38px" style="padding: .6rem; margin-top: -2px;">
+        </li>
+        <li class="nav-item mt-1" style="margin-left:10px; margin-right: 20px;">
+            <button class="nav-color btn btn-primary me-md-2" type="button" style="color: white;" onclick="signInEvent()">Oturum açın</button>
+        </li>
+    </ul>
+    
+    <div class="container">
+        <div class="col-6 offset-3 logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </div>
+    </div>
+    
+    <div class="container">
+        <center>
+            <div class="col-sm-10 col-md-7 col-lg-5 mt-3">
+                <div class="input-group mb-3" style="height: 44px;">
+                    <button class="btn google-border" style="width: 10%; border-right: none;" type="button" id="button-addon1">
+                        <img src="https://www.google.com/images/searchbox/desktop_searchbox_sprites318_hr.webp" alt="" style="width: 20px; height: 20px; object-fit: cover; object-position: top;">
+                    </button>
+                    <input id="search" style="border-left: none; border-right: none;" type="text" class="form-control google-border"
+                      placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" onkeyup="keyupEvent(event)">
+                    <button class="btn google-border searchKeypad" style="width: 10%; border-left: none;" type="button" id="button-addon1">
+                    </button>
+                </div>
+            </div>
+            <div class="col-12">
+              <button id="searchBtn" type="button" class="btn btn-light btn-sm googleButtons" onclick="searchEvent()">Google'da Ara</button>
+              <button type="button" class="btn btn-light btn-sm googleButtons" onclick="feelLuckyEvent()">Kendimi Şanslı Hissediyorum</button>
+            </div>
+        </center>
+    </div>
+
+    <nav>
+      <ul class="footer bg-light">
+        <li class="footerli">
+          <a
+            href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            >Hakkında</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://www.google.com/intl/en_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            >Reklam</a
+          >
+        </li>
+        <li class="footerli">
+          <a
+            href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            >İşletme</a
+          >
+        </li>
+        <li class="footerli">
+          <a href="https://google.com/search/howsearchworks/?fg=1"
+            >Arama nasıl çalışır?</a
+          >
+        </li>
+
+        <li class="footerli" style="float: right;  margin-right: 35px">
+          <a href="https://policies.google.com/privacy?hl=en-TR&fg=1">Gizlilik</a>
+        </li>
+        
+        <li class="footerli" style="float: right">
+          <a href="https://policies.google.com/terms?hl=en-TR&fg=1">Şartlar</a>
+        </li>
+
+        <li class="footerli" style="float: right">
+          <a href="https://www.google.com/preferences?hl=en">Ayarlar</a>
+        </li>
+      </ul>
+    </nav>
+    
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="app.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
